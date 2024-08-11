@@ -9,6 +9,9 @@ production stylesheet in assets/built/screen.css using: npm run dev
 /* ---------------------------------------------------------- */
 
 /* Base components */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
 @import "vars.css";
 @import "components/global.css";
 @import "components/forms.css";
